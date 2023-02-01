@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="clock.js"></script>
+    <title>DIGITAL CLOCK</title>
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <div class="header">
+        <div class="title">
+            Javascript Clock &hearts;
+        </div>
+    </div>
+
+    <!-- CLOCK  -->
+    <div class="clock-container">
+        <div id="clock-content">
+            <span id="hours">00</span>
+            <span id="colon">:</span>
+            <span id="minutes">00</span>
+            <span id="colon">:</span>
+            <span id="seconds">00</span>
+            <span id="session">AM</span>
+        </div>
+    </div>
+
+    <!-- <script>
+        setInterval(showTime, 1000);
+    function showTime() {
+        let time = new Date();
+        let hour = time.getHours();
+        let min = time.getMinutes();
+        let sec = time.getSeconds();
+        am_pm = "AM";
+
+        if (hour > 12) {
+            hour =- 12;
+            am_pm = "PM";
+        }
+        if (hour == 0) {
+            hour = 12;
+            am_pm = "AM";
+        }
+
+        hour = hour < 10 ? "0" + hour : hour;
+        min = min < 10 ? "0" + min : min;
+        sec = sec < 10 ? "0" + sec : sec;
+
+        let currentTime = hour + ":" + min + ":" + sec + am_pm;
+
+        document.getElementById("clock").innerHTML = currentTime;
+    }
+
+    showTime();
+    </script> -->
+</body>
+</html>

@@ -1,0 +1,61 @@
+@font-face {
+    font-family: digital;
+    src: url('./font/DS-DIGII.TTF');
+}
+
+body {
+    background-color: #000B1E;
+    margin: 0;
+}
+
+.header {
+    height: 150px;
+    width: 50%;
+    margin: 30px auto 30px auto;
+    text-align: center;
+    background-color: #000B1E;
+    border: 8px solid #01CF8F;
+    border-radius: 15px;
+}
+
+.title {
+    font-family: 'digital', cursive;
+    color: #D4A82F;
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+.clock-container {
+    height: 250px;
+    width: 70%;
+    margin: 50px auto 30px auto;
+    border: 10px solid #7A2FE1;
+    border-radius: 15px;
+}
+
+#clock-content {
+    text-align: center;
+    font-size: 150px;
+    margin-top: 50px;
+    font-family: 'digital', cursive;
+}
+
+#hours {
+    color: #DB0747;
+}
+
+#minutes {
+    color: #DB0747;
+}
+
+#seconds {
+    color: #DB0747;
+}
+
+#session {
+    color: #05C6E3;
+}
+
+#colon {
+    color: #07C712;
+}
