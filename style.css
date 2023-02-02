@@ -10,7 +10,7 @@ body {
 
 .header {
     height: 150px;
-    width: 50%;
+    width: 52%;
     margin: 30px auto 30px auto;
     text-align: center;
     background-color: #000B1E;
@@ -21,7 +21,7 @@ body {
 .title {
     font-family: 'digital', cursive;
     color: #D4A82F;
-    font-size: 80px;
+    font-size: 85px;
     padding-top: 30px;
 }
 
